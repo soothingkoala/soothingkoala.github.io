@@ -2,6 +2,10 @@ body {
   background-color: #00b894;
   }
 
+ul li {
+  display: inline-block;
+  }
+
 
 
 
