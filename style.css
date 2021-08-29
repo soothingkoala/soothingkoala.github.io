@@ -4,6 +4,8 @@ body {
 
 ul li {
   display: inline-block;
+  background-color: #55efc4;
+  border-radius: 20px;
   }
 
 
