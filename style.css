@@ -1,0 +1,129 @@
+/* Common CSS */
+*, *::before, *::after {
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box ;
+}
+body {
+ background-color: #fff;
+}
+img {
+ max-width: 100%;
+}
+
+/* Header CSS */
+header {
+ background-color: #ba2e1f;
+ width: 100%;
+ clear: both;
+}
+
+/* CSS for header links box */
+#inner_header_menu {
+ display: block;
+ background-color: #ba2e1f;
+ width: 62%;
+ height: 100%;
+ padding: 0 5px;
+ float: left;
+ text-align: left;
+ overflow: hidden;
+}
+/* CSS for header links */
+#inner_header_menu li {
+ display: inline-block;
+ background-color: transparent;
+ padding: 8px 2px 12px;
+ list-style: none;
+ position: relative;
+ z-index: 0;
+}
+#inner_header_menu li a {
+ font-size: 10px;
+ color: #fff;
+ text-decoration: none;
+}
+/* CSS for separation bar after header links */
+#inner_header_menu li::after {
+ content: "";
+ background-color: #000;
+ width: 1px;
+ height: 15px;
+ position: absolute;
+ right: -3px;
+ top: 12px;
+}
+
+/* CSS for search area*/
+#search_area {
+ display: inline-block;
+ background-color: #ba2e1f;
+ width: 37%;
+ height: 100%;
+}
+/* CSS for search bar */
+#search_area input[type="search"]{
+ background-color: #fff;
+ border: 0.1px solid #000;
+ border-radius: 15px;
+ margin: 12px 0;
+ padding: 2px;
+ width: 70%;
+ height: 100%;
+ text-align: center;
+}
+#search_area input[type="search"]:hover{
+ border: 0;
+ position: relative;
+}
+/* CSS for search button */
+#search_area input[type="submit"]{
+ display: block;
+ background-size: 33px;
+ background-repeat: no-repeat;
+ background-image: url('IMAGE/ICONS/search_cropped.png');
+ border: 1px solid #f00f00;
+ border-radius: 50%;
+ margin: 5px 2px;
+ width: 35px;
+ height: 35px;
+ float: right;
+}
+
+/* Hero area CSS*/
+#hero_area {
+ display: block;
+ width: 96%;
+ border: 2px solid;
+ margin: 2%;
+}
+
+#hero_banner, #hero_header {
+ display: inline-block;
+ width: 49%;
+ height: 126px;
+ margin: 0.5%;
+ border: 1px solid #ba2e1f;
+ text-align: center;
+}
+
+#hero_banner {
+}
+#hero_banner img {
+ width: 100%;
+ height: 100%;
+}
+
+#hero_header {
+ padding: 0px 0;
+ float: right;
+}
+#hero_header h1 {
+ height: 30%;
+}
+
+#inner_hero_article {
+ display: block;
+ border: 1px solid #ba2e1f;
+ clear: both;
+}
